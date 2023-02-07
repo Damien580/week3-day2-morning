@@ -1,0 +1,48 @@
+*{
+    background-color: lightgrey;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+
+
+}
+.red {
+    background-color: red;
+
+}
+
+#first{
+    position: relative;
+    /* left: 50px;
+    z-index: 1; */
+}
+
+#second{
+    position: relative;
+    
+}
+
+#third{
+    position: sticky;
+    top: 0px;
+}
+
+#container{
+    background-color: burlywood;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 50vw;
+    height: 200vh;
+
+}
+
+
